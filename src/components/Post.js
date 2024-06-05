@@ -18,6 +18,7 @@ import React, { useEffect, useState } from "react";
 import { auth, db } from "./firebase";
 import { doc, getDoc } from "firebase/firestore";
 
+//array for multiple horizantal images
 const postImages = [
     { src: image1, title: "Modern Wall Decor Framed Painting", description: "$199.99" },
     { src: image2, title: "Modern Wall Decor Framed Painting", description: "$199.99" },
@@ -27,7 +28,8 @@ const postImages = [
 
 const Post = () => {  
     // const postImages = [image1, image2, image3, image4];
-//fectching data from firebase
+
+    //fectching data from firebase
 const [userDetails, setUserDetails] = useState(null);
   const fetchUserData = async () => {
     auth.onAuthStateChanged(async (user) => {

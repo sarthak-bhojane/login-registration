@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { auth } from "./firebase";
 import { toast } from "react-toastify";
 // import SignInwithGoogle from "./signInWIthGoogle";
+import "./login.css"; // Import the CSS file
 
 function Login() {
   const [email, setEmail] = useState("");
