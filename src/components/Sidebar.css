@@ -1,0 +1,22 @@
+
+  .sidebar {
+    background-color: #fff;
+    padding: 50px;
+    margin-top: 21px;
+    border-radius: 22px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    /* margin: 15px 0;
+    cursor: pointer; */
+    display: flex;
+    align-items: center;
+  padding: 10px 0; /* Adjust padding as needed */
+  cursor: pointer;
+  }
+  

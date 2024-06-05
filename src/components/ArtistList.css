@@ -1,0 +1,25 @@
+
+
+.artist-list {
+    margin-top: 42px;
+}
+
+.artist {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.artist-image {
+    width: 50px;
+    height: 45px;
+    border-radius: 15%;
+    margin-right: 15px;
+    margin-left: 9px;
+}
+
+.artist h4, .artist p {
+    color: white;
+    /* Set text color to white */
+    margin-top: 14px;
+}
